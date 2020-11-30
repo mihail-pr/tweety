@@ -1,0 +1,63 @@
+body {
+    background-image: url(/images/birds.png);
+    background-color: #D5E7E4 ;
+    background-size: cover;
+}
+
+#h1 {
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 95px;
+    color: #A70D60;
+}
+
+a {
+    text-decoration: none;
+}
+.row-full {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+}
+
+.t-back{
+    font-family: 'Salsa', cursive;
+    background-color: rgba(168, 224, 240,0.8);
+}
+
+.back {
+    border-radius: 35px;
+    background-color: rgba(168, 224, 240,0.8);
+    height: 135px;
+    width:385px;
+}
+
+.txt {
+    font-family: 'Salsa', cursive;
+    color: #833B59;
+}
+
+.buttons:focus, a:focus {
+    outline: none;
+}
+
+.buttons {
+    display: block;
+    width: 100%;
+    border: solid;
+    border-radius: 35px;
+    background-color: #e5e5e5;
+    color: #833B59;
+    padding: 14px 28px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttons:hover {
+    background-color: #A70D60;
+    color: #D5E7E4;
+}
+
+
